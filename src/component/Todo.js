@@ -94,7 +94,7 @@ const Todo = () => {
 
 
         <Modal show={show} onHide={handleClose}>
-           <h3 className="text-center mt-2">Update Your Task</h3>
+           <h3 className="text-center mt-2">Update Your Tasks</h3>
               <Modal.Header >
               <div className="todo col-lg-5 mx-auto d-flex justify-content-between align-items-center">
                 <input name='task' value={update} 
